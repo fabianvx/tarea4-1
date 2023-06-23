@@ -1,0 +1,256 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+ 
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+  
+
+  
+}
+
+#container { 
+  background: transparent url(../images/grass.png) repeat-x bottom;
+  padding-bottom: 5%;
+}
+#fecha{
+  font-style: italic;
+}
+#main{  
+  margin-top: -8.5%  ;
+width: 920px;
+margin-left: 24.5%;
+padding-top: 1%;
+padding-bottom: 2%;
+background-color: white;
+border-radius: 2%;
+margin-bottom: 2%  ;
+}
+
+
+#main2{  
+  margin-top: -8.5%  ;
+width: 920px;
+margin-left: 24.5%;
+padding-top: 1%;
+padding-bottom: 2%;
+background-color: white;
+border-radius: 2%;
+margin-bottom: 3%  ;
+}
+
+
+a :hover{ 
+  text-decoration: none; 
+}
+#menu #contenedor .principal{
+
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+#Derecha{
+float: right;
+margin-left: 75%;
+margin-right: 3%;
+}
+.recuadro{
+  background-color: #f4fafa;
+  border: 2px solid;
+  border-color: #C9E5E9;
+  border-radius: 10px;
+  padding: 5%;
+  margin-top: 7%;
+}
+#tituloPorqueZaguate{
+  color: #E5017D;
+}
+#PorqueZaguate{
+  float: left;
+  margin-left: 2%;
+  margin-right: 53%;
+  margin-top: -60%;
+  text-align: justify;
+  
+}
+ol{
+  margin-left: 5%;
+}
+th{
+  border: 1px;
+}
+.imgTabla{
+
+  height: 70px;
+  width: 70px;
+}
+
+.navbar #dropdown ul {
+  display: block;
+  position: relative;
+  left: 30px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #0078ff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
+
+
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  color: #4e4e4e;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
+  color: #0078ff;
+}
+
+.navbar .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+#formulario{
+text-align: center;
+
+}
+
+
+
+#imagen{
+  position: absolute;
+  overflow: overlay;
+  margin-top: 2%;
+ margin-left: 25%;
+ margin-right: 40%;
+ border: 2px solid;
+ border-color: #C9E5E9;
+ border-radius: 10px;
+
+
+}
+
+.tituloRecuadro{
+  color: #90dc47;
+}
+
+#menu #contenedor {
+
+  margin-left: 2%;
+  display: flex;
+  height: auto;
+  width: 880px;
+  height: 35px;
+  color: #FFF;
+  border-radius: 10px 10px 0% 0%;
+  background-color:#53C7FD;
+}
+
+#adoptar{
+  margin-left: 2%;
+  display: flex;
+  height: auto;
+  width: 100px;
+  height: 35px;
+  color: #FFF;
+  border-radius: 10px 10px 0% 0%;
+  background-color:#53C7FD;
+
+}
+#menu #contenedor a:hover{
+  font-size: larger;
+  font-weight: bold;
+  background-color: #E5017D;
+}
+a{
+  color: #47a7d3;
+}
+
+.fot{
+  text-decoration: underline;
+  color: #FFF; 
+
+}
+footer{
+  margin-top: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0% 0% 10px 10px ;
+    width: 860px; 
+    height: 35px;
+    padding: 1%;
+    text-align: center;
+    background-color: #53C7FD; 
+    align-items: center;
+    
+
+
+  }
+
+  #footer2{
+    margin-top: 200%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 0% 0% 10px 10px ;
+      width: 860px; 
+      height: 35px;
+      padding: 1%;
+      text-align: center;
+      background-color: #53C7FD; 
+      align-items: center;
+      
+  
+  
+    }
+
